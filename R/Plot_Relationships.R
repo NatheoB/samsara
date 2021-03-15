@@ -5,6 +5,8 @@
 #'
 #' @import ggplot2
 #'
+#' @export
+#'
 #' @param df dataframe in which data to plot are stored
 #' @param XquantiVars strings vector of quantitative explanatory variables to plot
 #' @param YquantiVars strings vector of quantitative response variables to plot

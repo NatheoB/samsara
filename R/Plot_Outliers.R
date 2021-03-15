@@ -4,7 +4,8 @@
 #' It aims to detect outliers within a given distribution.
 #'
 #' @import ggplot2
-#' @import cowplot
+#'
+#' @export
 #'
 #' @param df dataframe in which data to plot are stored
 #' @param quantiVars strings vector of quantitative variables to plot
@@ -31,6 +32,6 @@ Plot_Outliers <- function(df, quantiVars) {
       ylab("") + scale_y_continuous(breaks = NULL)
 
     # Plot the grid graph
-    print(plot_grid(boxPlot, clevelandPlot, labels = c("AUTO"), align = 'h'))
+    print(cowplot::plot_grid(boxPlot, clevelandPlot, labels = c("AUTO"), align = 'h'))
   }
 }

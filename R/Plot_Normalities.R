@@ -4,6 +4,8 @@
 #'
 #' @import ggplot2
 #'
+#' @export
+#'
 #' @param df dataframe in which data to plot are stored
 #' @param quantiVars strings vector of quantitative variables to plot
 #'
