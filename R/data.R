@@ -1,7 +1,7 @@
 #' @importFrom tibble tibble
 NULL
 
-#' Bauges_Virtual.
+#' Bauges_Virtual dataset..
 #'
 #' Bauges dataset from Arnaud's virtual choice of stands.
 #'
@@ -9,13 +9,13 @@ NULL
 #'   \code{Dg}, \code{BA} \code{Gini} \code{NHA} \code{Compo}
 "Bauges_Virtual"
 
-#' Bauges_Virtual.
+#' Bauges_IFN_Stands dataset.
 #'
 #' Bauges dataset from IFN database.
 #' Stand characteristics.
 "Bauges_IFN_Stands"
 
-#' Bauges_Virtual.
+#' Bauges_IFN_Trees dataset.
 #'
 #' Bauges dataset from IFN database.
 #' List of trees in a specified stand.

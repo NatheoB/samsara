@@ -23,9 +23,9 @@
 
 Plot_Relationships <- function(df, XquantiVars, YquantiVars, factorCol = NULL, factorGrid = NULL) {
   # For each Y variable
-  for (Yvar in Yvars) {
+  for (Yvar in YquantiVars) {
     # For each X variable
-    for (Xvar in Xvars) {
+    for (Xvar in XquantiVars) {
       if (Xvar == Yvar) {next}
 
       plot <- ggplot(df, aes_string(x = Xvar, y = Yvar, color = factorCol)) +
