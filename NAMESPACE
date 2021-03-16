@@ -2,6 +2,7 @@
 
 export(Plot_Boxplots)
 export(Plot_Distributions)
+export(Plot_Homoscedasticity)
 export(Plot_Normalities)
 export(Plot_Outliers)
 export(Plot_Relationships)

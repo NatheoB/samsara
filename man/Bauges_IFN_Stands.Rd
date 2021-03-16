@@ -3,9 +3,9 @@
 \docType{data}
 \name{Bauges_IFN_Stands}
 \alias{Bauges_IFN_Stands}
-\title{Bauges_Virtual.}
+\title{Bauges_IFN_Stands dataset.}
 \format{
-An object of class \code{data.frame} with 234 rows and 1 columns.
+An object of class \code{data.frame} with 234 rows and 15 columns.
 }
 \usage{
 Bauges_IFN_Stands

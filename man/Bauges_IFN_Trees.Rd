@@ -3,9 +3,9 @@
 \docType{data}
 \name{Bauges_IFN_Trees}
 \alias{Bauges_IFN_Trees}
-\title{Bauges_Virtual.}
+\title{Bauges_IFN_Trees dataset.}
 \format{
-An object of class \code{data.frame} with 3697 rows and 1 columns.
+An object of class \code{data.frame} with 3696 rows and 11 columns.
 }
 \usage{
 Bauges_IFN_Trees
