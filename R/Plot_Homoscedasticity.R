@@ -22,6 +22,7 @@ Plot_Homoscedasticity <- function(model) {
   )
   ggplot(data, aes(fitted, residuals)) +
     geom_point(colour= "blue") +
-    geom_hline(yintercept = 0, linetype="dashed", color = "gray")
-
+    geom_hline(yintercept = 0, linetype="dashed", color = "gray") +
+    labs(subtitle = paste("Model:", toString(model$call))) +
+    theme(plot.subtitle = element_text(hjust = 0.5))
 }
