@@ -3,7 +3,7 @@
 \docType{data}
 \name{Bauges_Virtual}
 \alias{Bauges_Virtual}
-\title{Bauges_Virtual dataset..}
+\title{Bauges_Virtual dataset.}
 \format{
 A data frame with seven variables: \code{ID}, \code{Area},
 \code{Dg}, \code{BA} \code{Gini} \code{NHA} \code{Compo}

@@ -14,16 +14,14 @@
 #' model <- lm(y~x)
 #' Plot_Homoscedasticity(model)
 
-
 Plot_Homoscedasticity <- function(model) {
   data <- data.frame(
     residuals = model$residuals,
     fitted = predict(model),
     zero = 0
   )
-  ggplot(data, aes(fitted, residuals) +
-           geom_point(colour= "gray") +
-           geom_hline(yintercept = 20, linetype="dashed", color = "gray")
-  )
+  ggplot(data, aes(fitted, residuals)) +
+    geom_point(colour= "blue") +
+    geom_hline(yintercept = 0, linetype="dashed", color = "gray")
 
 }

@@ -1,7 +1,7 @@
 #' @importFrom tibble tibble
 NULL
 
-#' Bauges_Virtual dataset..
+#' Bauges_Virtual dataset.
 #'
 #' Bauges dataset from Arnaud's virtual choice of stands.
 #'
